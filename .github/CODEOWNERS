@@ -1,0 +1,12 @@
+# Dev team owns the source code
+/src/main/       @Techies-Org/Dev-Team
+
+# DevOps team owns generated or build artifacts
+/target/         @Techies-Org/Devops-Team
+
+# Dev team owns the project config and documentation
+/pom.xml         @Techies-Org/Dev-Team
+/README.md       @Techies-Org/Dev-Team
+
+# Optional fallback
+*                @Techies-Org/Dev-Team
